@@ -1,0 +1,12 @@
+@import "../../common/colors.scss";
+.footer {
+  background: $secondary-color;
+  height: 72px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: $font-primary;
+}
+.fa-heart{
+  color: red;
+}
