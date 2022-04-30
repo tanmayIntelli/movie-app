@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div>
       <div className="search-box">
-        <span><input type="text" id="search-text" placeholder="Search movies or shows..."></input><button id="search-btn" onClick={searchHandler}>Search</button></span>
+        <input type="text" id="search-text" placeholder="Search movies or shows..."></input><button id="search-btn" onClick={searchHandler}>Search</button>
       </div>
       <div className="banner-img"></div>
       <MovieListing />
